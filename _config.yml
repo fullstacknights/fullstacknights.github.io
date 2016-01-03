@@ -10,6 +10,7 @@ description:
   who_should_come: "Toda persona interesada en temas de programación y diseño interactivo. No importa si sólo tienes curiosidad con alguno de estos temas, eres estudiante, estás empezando o si eres un experto. Hay espacio para todos compartir y aprender."
   why_pay: "Solicitamos una donación de $5 por cada asistente. De esos $5 se descuentan los cargos de procesamiento de tarjeta de crédito por lo que sobran unos $3.73. Esta donación tiene como propósito principal que las personas que reserven un asiento lleguen el día del evento. Nos ha pasado mucho con eventos gratis que las personas nos reservan y no llegan dejando fuera a otros que si podrían llegar. También usamos este dinero para completar los gastos de bebidas y pizza que tenemos disponible para las personas que llegan temprano."
 
+favicons_path: img/favicons
 google_analytics:
   id: UA-71910979-1
 
