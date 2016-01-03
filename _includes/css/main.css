@@ -294,6 +294,31 @@ section.success {
     color: #{{ site.color.primary }};
     background: #fff;
 }
+.btn-external {
+    background-color: #{{ site.color.secondary-dark}};
+    min-width: 300px;
+    margin: 30px auto;
+    width: 50%;
+    font-size: 1.5em;
+}
+
+.btn-talk-submit:hover,
+.btn-talk-submit:focus, 
+.btn-talk-submit:active,
+.btn-talk-submit.active {
+    border: solid 1px #fff;
+    background-color: #fff;
+    color: #{{ site.color.primary }};
+}
+
+.btn-news-letter-sub:hover,
+.btn-news-letter-sub:focus, 
+.btn-news-letter-sub:active,
+.btn-news-letter-sub.active {
+    border: solid 1px #{{ site.color.primary }};
+    background-color: #{{ site.color.primary }};
+    color: #fff;
+}
 
 .btn:focus,
 .btn:active,

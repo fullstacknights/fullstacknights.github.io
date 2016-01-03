@@ -4,11 +4,21 @@
     <body id="page-top" class="index">
     {% include nav.html %}
     {% include header.html %}
-    {% include tickets.html %}
+
+    {% if site.active_meetup %}
+        {% include tickets.html %}
+    {% else %}
+        {% include news_letter.html %}
+    {% endif %}
+
     {% include about.html %}
     {% include team.html %}
     {% include talks_submission.html %}
-    {% include news_letter.html %}
+
+    {% if site.active_meetup %}
+        {% include news_letter.html %}
+    {% endif %}
+
     {% include footer.html %}
     {% include js.html %}
     </body>
