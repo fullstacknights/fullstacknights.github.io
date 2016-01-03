@@ -19,7 +19,11 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
+                        {% if site.active_meetup %}
                         <a href="#tickets">Registro</a>
+                        {% else %}
+                        <a href="#news-letter">News Letter</a>
+                        {% endif %}
                     </li>
                     <li class="page-scroll">
                         <a href="#about">El Evento</a>
@@ -30,9 +34,11 @@
                     <li class="page-scroll">
                         <a href="#talk-submission">Speakers</a>
                     </li>
+                    {% if site.active_meetup %}
                     <li class="page-scroll">
                         <a href="#news-letter">News Letter</a>
                     </li>
+                    {% endif %}
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

@@ -14,14 +14,15 @@
                     {{ site.team.description }}
                 </p>
                 <div class="col-lg-12 team">
+                    {% for member in site.team.members %}
                     <div class="team-img-wrapper col-lg-3">
                         <div>
-                            <img src="{{site.team.froi.img}}" alt="">    
+                            <img src="{{member.img}}" alt="{{ member.name }}">    
                         </div>
                         <div>
-                            <h5>Froilán Irizarry</h5>
+                            <h5>{{ member.name}}</h5>
                             <ul class="list-inline">
-                                {% for network in site.team.froi.social %}
+                                {% for network in member.social %}
                                 <li>
                                     <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
                                 </li>
@@ -29,51 +30,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="team-img-wrapper col-lg-3">
-                        <div>
-                            <img src="{{site.team.jose.img}}" alt="">    
-                        </div>
-                        <div>
-                            <h5>Jose A. Padilla</h5>
-                            <ul class="list-inline">
-                                {% for network in site.team.jose.social %}
-                                <li>
-                                    <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
-                                </li>
-                                {% endfor %}
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="team-img-wrapper col-lg-3">
-                        <div>
-                            <img src="{{site.team.giovanni.img}}" alt="">    
-                        </div>
-                        <div>
-                            <h5>Giovanni Collazo</h5>
-                            <ul class="list-inline">
-                                {% for network in site.team.giovanni.social %}
-                                <li>
-                                    <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
-                                </li>
-                                {% endfor %}
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="team-img-wrapper col-lg-3">
-                        <div>
-                            <img src="{{site.team.axel.img}}" alt="">    
-                        </div>
-                        <div>
-                            <h5>Axel Rivera</h5>
-                            <ul class="list-inline">
-                                {% for network in site.team.axel.social %}
-                                <li>
-                                    <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
-                                </li>
-                                {% endfor %}
-                            </ul>
-                        </div>
-                    </div>
+                    {% endfor %}
                 </div>
             </div>
         </div>
