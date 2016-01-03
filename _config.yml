@@ -1,0 +1,76 @@
+# Site settings
+title: Fullstack Nights
+abrev: FSN
+# email: firizarry@killerrabbitlabs.com
+url: "http://www.fullstacknights.com"
+
+description: 
+  partial: "Fullstack nights es un evento dirigido a programadores y diseñadores interesados en aprender y compartir lo que saben en un ambiente amistoso e informal."
+  full: "Fullstack nights es un evento dirigido a programadores y diseñadores interesados en aprender y compartir lo que saben en un ambiente amistoso e informal. En cada edición tendremos 3 presentaciones de 15 minutos cada una. Los temas de las presentaciones serán sobre lenguajes de programación, frameworks, aplicaciones web, desktop y móvil, bases de datos, experiencia de usuario, interfaces, diseño y cualquier otro tema de interés para nuestra comunidad."
+  who_should_come: "Toda persona interesada en temas de programación y diseño interactivo. No importa si sólo tienes curiosidad con alguno de estos temas, eres estudiante, estás empezando o si eres un experto. Hay espacio para todos compartir y aprender."
+  why_pay: "Solicitamos una donación de $5 por cada asistente. De esos $5 se descuentan los cargos de procesamiento de tarjeta de crédito por lo que sobran unos $3.73. Esta donación tiene como propósito principal que las personas que reserven un asiento lleguen el día del evento. Nos ha pasado mucho con eventos gratis que las personas nos reservan y no llegan dejando fuera a otros que si podrían llegar. También usamos este dinero para completar los gastos de bebidas y pizza que tenemos disponible para las personas que llegan temprano."
+
+sub_header: Charlas de tecnologia y diseño.
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 50E3C2 #80B3FF 
+  secondary: 2c3e50 #FD6E8A
+  links: 848C93
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Fullstack Nights
+  location: Location
+  social: Around the Web
+  credits: Credits
+
+eventbrite:
+  ticket_form_widget: '<div style="width:100%; text-align:left;" ><iframe  src="//eventbrite.com/tickets-external?eid=20137747545&ref=etckt" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #dddddd; text-decoration: none;" target="_blank" href="http://www.eventbrite.com/r/etckt">Powered by Eventbrite</a></div></div>'
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/fullstacknights
+  - title: facebook
+    url: https://www.facebook.com/FullstackNights/
+  - title: youtube
+    url: https://www.youtube.com/channel/UCiJwjxdD9XIjRpV__kW2wsw
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: '<a href="http://prsciencetrust.org/">El Fideicomiso para Ciencia, Tecnología e Investigación de Puerto Rico</a>'
+  - line: Antigua Penitenciaria Estatal
+  - line: Carr. 21, Bo. Monacillos,
+  - line: Río Piedras, Puerto Rico 00927
+
+# Credits content
+credits: '<p>This site was done using <a href="http://jekyllrb.com/">Jekyll</a> and the Freelancer theme.</p> <p>Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+team:
+  description: "Somos desarrolladores de software, diseñadores y lideres comunitarios. Nos pueden contactar por Twitter."
+  froi:
+    img: img/froi.png
+    social:
+      - title: twitter
+        url: https://twitter.com/skfroi
+  jose: 
+    img: img/jose.png
+    social:
+      - title: twitter
+        url: https://twitter.com/jpadilla_
+  giovanni: 
+    img: img/giovanni.png
+    social:
+      - title: twitter
+        url: https://twitter.com/gcollazo
+  axel: 
+    img: img/axel.png
+    social:
+      - title: twitter
+        url: https://twitter.com/arivera
