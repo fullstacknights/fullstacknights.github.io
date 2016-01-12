@@ -57,6 +57,26 @@ credits: '<p>This site was done using <a href="http://jekyllrb.com/">Jekyll</a> 
 markdown: kramdown
 permalink: pretty
 
+current_talks:
+  speakers: 
+    - name: Orlando Marty
+      topic: UInimations
+      img: img/orlando_marty.png
+      social:
+        - title: twitter
+          url: https://twitter.com/orlanmarty
+    - name: Emilio Sanchez
+      topic: Brick Architecture with Docker
+      img: img/emilio.png
+      social:
+        - title: external-link
+          url: https://about.me/SanchezEmilio
+    - name: Jonathan Ortiz
+      topic: Good/Bad Design
+      img: img/jonathan_ortiz.png
+      social:
+        - title: linkedin
+          url: https://pr.linkedin.com/in/jonathan-ortiz-244335110
 # Team members and their social profiles
 team:
   description: "Somos desarrolladores de software, diseñadores y lideres comunitarios. Nos pueden contactar por Twitter."

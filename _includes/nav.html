@@ -18,6 +18,11 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
+                    {% if site.active_meetup %}
+                    <li class="page-scroll">
+                        <a href="#current-talks">Charlas</a>
+                    </li>
+                    {% endif %}
                     <li class="page-scroll">
                         {% if site.active_meetup %}
                         <a href="#tickets">Registro</a>

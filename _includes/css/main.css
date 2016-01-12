@@ -367,14 +367,20 @@ footer .footer-below {
     outline: 0;
 }
 
-.team-img-wrapper {
+.img-wrapper {
     float: left;
     margin: 20px auto;
     text-align: center;
+    height: 340px;
+}
+.team img, .speakers img {
+    border-radius: 50%;
 }
 .team img {
-    border-radius: 50%;
     max-width: 175px;
+}
+.speakers img {
+    width: 200px;
 }
 
 .fsn-logo {
