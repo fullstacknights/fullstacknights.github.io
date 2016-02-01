@@ -8,7 +8,7 @@ categories: fsn videos
 <div class="row top-bottom-buffer">
     <div class="col-lg-12 text-center">
         <h4> Good Design / Bad Design</h4>
-        <h5> Janathan Ortiz </h5>
+        <h5> Jonathan Ortiz </h5>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/SLFcY9ZnFjI" frameborder="0" allowfullscreen></iframe>
     </div>
 </div>
