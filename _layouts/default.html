@@ -2,24 +2,12 @@
 <html>
     {% include head.html %}
     <body id="page-top" class="index">
-    {% include nav.html %}
-    {% include header.html %}
+        {% include nav.html %}
 
-    {% if site.active_meetup %}
-        {% include tickets.html %}
-    {% else %}
-        {% include newsletter.html %}
-    {% endif %}
+        {{ content }}
 
-    {% include about.html %}
-    {% include team.html %}
-    {% include talks_submission.html %}
-
-    {% if site.active_meetup %}
-        {% include newsletter.html %}
-    {% endif %}
-
-    {% include footer.html %}
-    {% include js.html %}
+        {% include footer.html %}
+        {% include js.html %}
     </body>
+
 </html>

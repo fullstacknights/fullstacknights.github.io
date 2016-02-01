@@ -1,3 +1,18 @@
 ---
 layout: default
 ---
+{% include header.html %}
+{% if site.active_meetup %}
+    {% include tickets.html %}
+{% else %}
+    {% include newsletter.html %}
+{% endif %}
+
+{% include about.html %}
+{% include team.html %}
+{% include talks_submission.html %}
+
+{% if site.active_meetup %}
+    {% include newsletter.html %}
+{% endif %}
+
