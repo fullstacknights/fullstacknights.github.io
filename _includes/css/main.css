@@ -391,3 +391,7 @@ footer .footer-below {
     width: 100%;
     height: 500px;
 }
+
+.top-buttom-buffer {
+    margin: 20px auto;
+}

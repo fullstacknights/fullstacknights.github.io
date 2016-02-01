@@ -1,0 +1,17 @@
+---
+layout: default
+---
+{% include vids_header.html %}
+<div class="container">
+  {% for post in site.posts %}
+  <div class="row top-buttom-buffer">
+      <div class="col-lg-12">
+        <span class="post-meta">Sometido por: Froilán Irizarry en {{ post.date | date: "%b %-d, %Y" }}</span>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </div>
+  </div>
+  <hr>
+  {% endfor %}
+</div>
