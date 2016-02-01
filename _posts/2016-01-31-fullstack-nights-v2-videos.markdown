@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Fullstack Nights v2 - January 2015"
+title: "Fullstack Nights v2 - January 2016"
 date: 2016-01-31 16:50:58 -0400
 categories: fsn videos
 ---
