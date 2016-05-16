@@ -245,7 +245,7 @@ section.success {
 }
 
 .btn-talk-submit:hover,
-.btn-talk-submit:focus, 
+.btn-talk-submit:focus,
 .btn-talk-submit:active,
 .btn-talk-submit.active {
     border: solid 1px #fff;
@@ -254,7 +254,7 @@ section.success {
 }
 
 .btn-news-letter-sub:hover,
-.btn-news-letter-sub:focus, 
+.btn-news-letter-sub:focus,
 .btn-news-letter-sub:active,
 .btn-news-letter-sub.active {
     border: solid 1px #{{ site.color.primary }};
@@ -394,4 +394,13 @@ footer .footer-below {
 
 .top-buttom-buffer {
     margin: 20px auto;
+}
+
+header .container {
+  padding-bottom: 50px;
+}
+
+.app-download-img {
+  width: 200px;
+  margin: 15px auto 0 auto;
 }
