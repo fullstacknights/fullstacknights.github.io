@@ -2,37 +2,60 @@
 <section id="team">
 	<div class="container">
 		<div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>El Equipo</h2>
-                <hr >
-            </div>
-        </div>
+	    <div class="col-lg-12 text-center">
+	        <h2>El Equipo</h2>
+	        <hr >
+	    </div>
+		</div>
 		<div class="row">
 			<div class="col-lg-12">
-                <h3>¿Quienes somos?</h3>
-                <p>
-                    {{ site.team.description }}
-                </p>
-                <div class="col-lg-12 team">
-                    {% for member in site.team.members %}
-                    <div class="img-wrapper col-lg-3">
-                        <div>
-                            <img src="{{member.img}}" alt="{{ member.name }}">    
-                        </div>
-                        <div>
-                            <h5>{{ member.name}}</h5>
-                            <ul class="list-inline">
-                                {% for network in member.social %}
-                                <li>
-                                    <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
-                                </li>
-                                {% endfor %}
-                            </ul>
-                        </div>
-                    </div>
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
+				<h3>¿Quienes somos?</h3>
+				<p>{{ site.team.description }}</p>
+				<div class="col-lg-12 team">
+					{% for member in site.team.members %}
+					<div class="img-wrapper col-lg-3">
+						<div>
+							<img src="{{member.img}}" alt="{{ member.name }}">
+						</div>
+						<div>
+							<h5>{{ member.name}}</h5>
+							<ul class="list-inline">
+							{% for network in member.social %}
+								<li>
+									<a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
+								</li>
+							{% endfor %}
+							</ul>
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+    </div>
+		<div class="row">
+			<div class="col-lg-12">
+				<h3>Colaboradores</h3>
+				<p>{{ site.collaborators.description }}</p>
+				<div class="col-lg-12 team">
+					{% for collaborator in site.collaborators.members %}
+					<div class="img-wrapper col-lg-3">
+						<div>
+							<img src="{{collaborator.img}}" alt="{{ collaborator.name }}">
+						</div>
+						<div>
+							<h5>{{ collaborator.name}}</h5>
+							<ul class="list-inline">
+							{% for network in collaborator.social %}
+								<li>
+									<a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
+								</li>
+							{% endfor %}
+							</ul>
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+    </div>
 	</div>
 </section>

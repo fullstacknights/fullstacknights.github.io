@@ -401,6 +401,10 @@ header .container {
 }
 
 .app-download-img {
-  width: 200px;
   margin: 15px auto 0 auto;
+  display: inline-block;
+}
+
+.google-badge-size {
+  width: 155px;
 }

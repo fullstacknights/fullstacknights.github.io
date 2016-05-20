@@ -97,3 +97,16 @@ team:
       social:
         - title: twitter
           url: https://twitter.com/arivera
+collaborators:
+  description: Nuestra comunidad es especial pero estos se destacan entre todos!
+  members:
+    - name: Emmanuel Luciano
+      img: img/emmanuel.png
+      social:
+        - title: twitter
+          url: https://twitter.com/eLuciiano
+    - name: Jose Padilla
+      img: img/jep.jpeg
+      social:
+        - title: twitter
+          url: https://twitter.com/jpadilla1293
