@@ -59,19 +59,19 @@ permalink: pretty
 
 current_talks:
   speakers:
-    - name: Alfredo Alvarez
-      topic: Procedurally Generated Algorithms in Openscad
-      img: https://pbs.twimg.com/profile_images/3297780302/8e3b6abc06d0a03d5afc485c611a173b.jpeg
+    - name: Giovanni Collazo
+      topic: Principles of security
+      img: https://pbs.twimg.com/profile_images/645002062569213952/eS7i6YJO.jpg
       social:
         - title: twitter
-          url: https://twitter.com/theavatare
+          url: https://twitter.com/gcollazo
 
-    - name: Alex Santos
-      topic: Email Design ... Yes it's Important
-      img: https://avatars3.githubusercontent.com/u/2586448?v=3&s=400
+    - name: Nexo Morales
+      topic: Quien no oye consejo, no llega a viejo
+      img: https://pbs.twimg.com/profile_images/750512223416487936/HW3r1NRx.jpg
       social:
         - title: twitter
-          url: https://twitter.com/Makobi93
+          url: https://twitter.com/nexomorales
 
 # Team members and their social profiles
 team:
