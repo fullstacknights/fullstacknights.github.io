@@ -21,4 +21,14 @@ process.exit(
 
 -    77.47     // processing fees @eventbrite
 -   133.00     // pizzas          @costco
+
+// Fullstack Nights v5, 2016-07-26 at @prsciencetrust
+// featuring @gcollazo and @nexomorales
+
++ 240.00       // ticket sales     @eventbrite
+
+- 59.69        // processing fees  @eventbrite
+- 110.95       // pizzas           @costco
+-  29.92       // refreshments    SuperMax
+
 );
