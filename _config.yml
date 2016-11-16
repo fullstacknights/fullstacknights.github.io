@@ -60,14 +60,14 @@ current_talks:
   speakers:
     - name: Carlos Perez
       topic: Intro to PowerShell
-      img: https://pbs.twimg.com/profile_images/645002062569213952/eS7i6YJO.jpg
+      img: https://pbs.twimg.com/profile_images/718454584184815620/N7srA0fA.jpg
       social:
         - title: twitter
           url: https://twitter.com/Carlos_Perez
 
     - name: Yamil Asusta
       topic: Designing an Analytics Engine on Mongo DB
-      img: https://pbs.twimg.com/profile_images/750512223416487936/HW3r1NRx.jpg
+      img: https://pbs.twimg.com/profile_images/2593182457/2ika0ve307vt97vasvhb.jpeg
       social:
         - title: twitter
           url: https://twitter.com/elbuo8
