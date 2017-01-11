@@ -2,7 +2,7 @@
 title: Fullstack Nights
 abrev: FSN
 url: fullstacknights.com
-active_meetup: false
+active_meetup: true
 description:
   partial: "Fullstack nights es un evento dirigido a programadores y diseñadores interesados en aprender y compartir lo que saben en un ambiente amistoso e informal."
   full: "Fullstack nights es un evento dirigido a programadores y diseñadores interesados en aprender y compartir lo que saben en un ambiente amistoso e informal. En cada edición tendremos 2 presentaciones de 20 minutos cada una. Los temas de las presentaciones serán sobre lenguajes de programación, frameworks, aplicaciones web, desktop y móvil, bases de datos, experiencia de usuario, interfaces, diseño y cualquier otro tema de interés para nuestra comunidad."
@@ -31,7 +31,7 @@ footer:
 
 # Tickets settings
 eventbrite:
-  ticket_form_widget: '<div style="width:100%; text-align:left;"><iframe src="//eventbrite.com/tickets-external?eid=29395790601&ref=etckt" frameborder="0" height="275" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #ADB0B6; text-decoration: none;" target="_blank" href="http://www.eventbrite.com/">Powered by Eventbrite</a></div></div>'
+  ticket_form_widget: '<div style="width:100%; text-align:left;"><iframe src="//eventbrite.com/tickets-external?eid=31061953138&ref=etckt" frameborder="0" height="275" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #ADB0B6; text-decoration: none;" target="_blank" href="http://www.eventbrite.com/">Powered by Eventbrite</a></div></div>'
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -58,19 +58,19 @@ permalink: pretty
 
 current_talks:
   speakers:
-    - name: Carlos Perez
-      topic: Intro to PowerShell
-      img: https://pbs.twimg.com/profile_images/718454584184815620/N7srA0fA.jpg
+    - name: Michael Barnett
+      topic: Data Aesthetics
+      img: img/mike.jpg
       social:
         - title: twitter
-          url: https://twitter.com/Carlos_Perez
+          url: https://twitter.com/m3arnett
 
-    - name: Yamil Asusta
-      topic: Designing an Analytics Engine on Mongo DB
-      img: https://en.gravatar.com/userimage/14349762/6c4b48240f3769c52c6c125c63f335fc.jpg?size=200
+    - name: Edward Betancourt
+      topic: How to do Async in Redux
+      img: https://pbs.twimg.com/profile_images/661276680929959936/BH_Exz_9.jpg
       social:
         - title: twitter
-          url: https://twitter.com/elbuo8
+          url: https://twitter.com/e_betan
 
 # Team members and their social profiles
 team:
