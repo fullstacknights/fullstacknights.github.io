@@ -48,4 +48,5 @@ process.exit(
 
 -  60.96        // processing fees  @eventbrite
 - 110.95        // pizzas           @costco
+-  38.91        // refreshments     SuperMax
 );
