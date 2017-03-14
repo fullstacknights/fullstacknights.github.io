@@ -1,0 +1,138 @@
+<script src="{{ "/js/papaparse.min.js" }}"></script>
+<script src="{{ "/js/moment-with-locales.min.js" }}"></script>
+<script src="{{ "/js/lodash.min.js" }}"></script>
+<script src="{{ "/js/calendar.min.js" }}"></script>
+<script type="text/javascript">
+(function($) {
+{% assign PATH_TO_CAL_TMPLS =  "/tmpls/" | prepend: site.baseurl %}
+  "use strict";
+
+  // parse CSV to JSON
+  Papa.parse("{{ site.baseurl }}/{{ page.calendar_csv }}", {
+    download: true,
+    header: false,
+    complete: function(results) {
+      // console.log(JSON.stringify(results.data));
+      loadCalendar(parseEvents(results.data));
+    }
+  });
+
+  // Format the events json to be compatible with Bootstrap-Calendar format
+  function parseEvents(rows) {
+    rows.shift(); // remove header
+    var inputDateFormat = "M/D/YYYY H:mm A Z"; // timezone will be added below
+    var result = [];
+
+    _.forEach(rows, function(columns, index) {
+      if (columns.length < 3)  // require at least: title, start, end
+        return;
+
+      var formattedEvent = {};
+      formattedEvent['id']    = index;
+      formattedEvent['title'] = columns[0];
+
+      var start = columns[1] + ' {{ page.calendar_timezone_offset }}'; // add timezone offset
+      var end   = columns[2] + ' {{ page.calendar_timezone_offset }}';
+
+      formattedEvent['start'] = moment(start, inputDateFormat).valueOf(); // Unix milliseconds
+      formattedEvent['end']   = moment(end, inputDateFormat).valueOf();
+
+      if (!_.isEmpty(columns[3]))
+        formattedEvent['class'] = 'event-' + columns[3].toLowerCase(); // predefined CSS classname
+
+      if (!_.isEmpty(columns[4]))
+        formattedEvent['url'] = columns[4];
+      else
+        formattedEvent['url'] = '#'
+
+      formattedEvent['description'] = columns[5]
+
+      result.push(formattedEvent);
+    });
+
+    // console.log(JSON.stringify(result));
+    return result;
+  }
+
+  // Load the calendar with the provided events in correct format
+  function loadCalendar(calendarEvents) {
+    let calendar_focus_date;
+
+    {% if page.calendar_focus_date %} 
+    calendar_focus_date = "{{ page.calendar_focus_date }}"
+    {% else %} 
+    calendar_focus_date = moment().format('YYYY-MM-DD') // today as default view
+    {% endif%}
+
+    var options = {
+      tmpl_path: "{{PATH_TO_CAL_TMPLS}}",
+      events_source: function() { return calendarEvents },
+      view: 'month',
+      tmpl_cache: false,
+      weekbox:false,
+      display_week_numbers: false,
+      day: calendar_focus_date,
+      onAfterEventsLoad: function(events) {
+        if(!events) {
+          return;
+        }
+        var list = $('#eventlist');
+        list.html('');
+
+        $.each(events, function(key, val) {
+          $(document.createElement('li'))
+            .html('<a href="' + val.url + '">' + val.title + '</a>')
+            .appendTo(list);
+        });
+      },
+      onAfterViewLoad: function(view) {
+        $('.page-header h3').text(this.getTitle());
+        $('.btn-group button').removeClass('active');
+        $('button[data-calendar-view="' + view + '"]').addClass('active');
+      },
+      classes: {
+        months: {
+          general: 'label'
+        }
+      }
+    };
+
+    var calendar = $('#calendar').calendar(options);
+
+    $('.btn-group button[data-calendar-nav]').each(function() {
+      var $this = $(this);
+      $this.click(function() {
+        calendar.navigate($this.data('calendar-nav'));
+      });
+    });
+
+    $('.btn-group button[data-calendar-view]').each(function() {
+      var $this = $(this);
+      $this.click(function() {
+        calendar.view($this.data('calendar-view'));
+      });
+    });
+
+    $('#first_day').change(function(){
+      var value = $(this).val();
+      value = value.length ? parseInt(value) : null;
+      calendar.setOptions({first_day: value});
+      calendar.view();
+    });
+
+    $('#language').change(function(){
+      calendar.setLanguage($(this).val());
+      calendar.view();
+    });
+
+    $('#events-in-modal').change(function(){
+      var val = $(this).is(':checked') ? $(this).val() : null;
+      calendar.setOptions({modal: val});
+    });
+    $('#events-modal .modal-header, #events-modal .modal-footer').click(function(e){
+      //e.preventDefault();
+      //e.stopPropagation();
+    });
+  }
+}(jQuery));
+</script>
