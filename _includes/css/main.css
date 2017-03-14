@@ -409,3 +409,43 @@ header .container {
 .google-badge-size {
   width: 155px;
 }
+
+.event {
+    display: block;
+    background-color: #c3c3c3;
+    width: 100%;
+    height: 30px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    -webkit-box-shadow: inset 0 0 5px 0 rgba(0,0,0,0.4);
+    box-shadow: inset 0 0 5px 0 rgba(0,0,0,0.4);
+    border-radius: 0px;
+    border: 1px solid #fff;
+}
+.events-list {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+    max-height: 60px;
+    padding: 5px;
+}
+.event-item-description {
+    color: #2c3e50;
+    margin-left: 20px;
+}
+.event-fsn {
+    background-color: #50E3C2;
+}
+a.event-fsn {
+    text-align: center;
+    text-decoration: none;
+    color:#2c3e50;
+}
+#cal-slide-content a.event-item {
+    color: #2c3e50;
+    font-weight: normal;
+    line-height: 22px;
+    margin-left: 20px;
+}
