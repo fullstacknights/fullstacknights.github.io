@@ -23,6 +23,20 @@ Most of the changes are going to be done in the _config.yml file:
         * **img**: path to member pic
         * **social**: a list of all the social networks the team member wants displayed.
 
+## How to use the Calendar feature
+
+The calendar feature is based on [NLKNguyen/jekyll-bootstrap-calendar](https://github.com/NLKNguyen/jekyll-bootstrap-calendar).
+
+To add events to the calendar you just have to edit the events/events.csv file. Just keep adding rows and the code will do the rest.
+
+### What changed?
+
+1. We do not use the components folder.
+1. Some of the bootstrap-calendar styles are overriden to use a more FSN look.
+1. We also added a description column in the CSV.
+1. We just use the minified versions of the assets.
+1. Some of the templates were edited to add the description and some custom styles.
+
 =========
 
 For more details, read the [documentation](http://jekyllrb.com/)
