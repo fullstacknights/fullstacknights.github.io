@@ -49,4 +49,15 @@ process.exit(
 -  60.96        // processing fees  @eventbrite
 - 110.95        // pizzas           @costco
 -  38.91        // refreshments     SuperMax
+
+// Fullstack Nights v8, 2017-03-20 at @prsciencetrust
+// featuring @gutigon and @stringhq
+
++ 450.00        // ticket sales     @eventbrite
+
+- 113.03        // processing fees  @eventbrite
+- 167.19        // food             @costco
+-  31.00        // refreshments     SuperMax
+-  30.00        // ads              @facebook
+
 );
