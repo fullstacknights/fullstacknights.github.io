@@ -40,10 +40,10 @@ process.exit(
 - 110.95        // pizzas           @costco
 -  12.48        // refreshments     SuperMax
 -  30.00        // ads              @facebook
-     
+
 // Fullstack Nights v7, 2017-01-23 at @prsciencetrust
 // featuring @m3arnett and @e_betan
-     
+
 + 240.00        // ticket sales     @eventbrite
 
 -  60.96        // processing fees  @eventbrite
@@ -57,7 +57,7 @@ process.exit(
 
 - 113.03        // processing fees  @eventbrite
 - 167.19        // food             @costco
--  31.00        // refreshments     SuperMax
--  30.00        // ads              @facebook
+-  32.40        // refreshments     SuperMax
+-  20.00        // ads              @facebook
 
 );
