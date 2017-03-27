@@ -118,3 +118,13 @@ collaborators:
           url: https://twitter.com/jpadilla1293
     - name: Eduardo Collazo
       img: img/eduardo.png
+    - name: Jomarie Alvelo
+      img: img/joma.png
+      social:
+        - title: instagram
+          url: https://www.instagram.com/jomajoma/
+    - name: Orlando Marty
+      img: img/orlando_marty.png
+      social:
+        - title: twitter
+          url: https://twitter.com/orlanmarty
