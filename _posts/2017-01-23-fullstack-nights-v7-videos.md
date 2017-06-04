@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Fullstack Nights v4 - January 2017"
+title: "Fullstack Nights v7 - January 2017"
 date: 2017-06-04
 categories: fsn videos
 author: Froilan Irizarry
