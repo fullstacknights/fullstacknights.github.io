@@ -3,6 +3,7 @@ layout: post
 title: "Fullstack Nights v1 - Deciembre 2015"
 date: 2015-12-05 13:15:00 -0400
 categories: fsn videos
+author: Froilan Irizarry
 ---
 
 <div class="row top-bottom-buffer">

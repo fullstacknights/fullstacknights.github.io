@@ -3,6 +3,7 @@ layout: post
 title: "Fullstack Nights v3 - Marzo 2016"
 date: 2016-03-29
 categories: fsn videos
+author: Froilan Irizarry
 ---
 
 <div class="row top-bottom-buffer">
