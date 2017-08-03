@@ -58,10 +58,12 @@ permalink: pretty
 
 current_talks:
   speakers:
-    - name: Orlando Marty
+    - name: Manuel Olmo y Orlando Marty
       topic: "Branding & Design Systems"
       img: img/orlando_marty.png
       social:
+        - title: twitter
+          url: https://twitter.com/olmocs
         - title: twitter
           url: https://twitter.com/orlanmarty
 
