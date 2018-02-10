@@ -10,8 +10,8 @@ script: bundle exec jekyll build --config _config.yml
 
 deploy:
   provider: s3
-  access_key_id: <%= ENV['S3_ACCESS_KEY_ID'] %>
-  secret_access_key: <%= ENV['S3_SECRET_KEY'] %>
+  access_key_id: $S3_ACCESS_KEY_ID
+  secret_access_key: $S3_SECRET_KEY
   bucket: fullstacknights.com
   skip_cleanup: true
   acl: public_read
