@@ -1,10 +1,17 @@
-language: node_js
+language: ruby
 sudo: false
-node_js:
-  - "0.12"
-
-script: node budget.js
-
-branches:
-  only:
-    - master
+rvm:
+  - 2.1
+install: gem install jekyll bundler 
+script: bundle install
+script: bundle exec jekyll build
+deploy:
+  provider: s3
+  access_key_id: <%= ENV['S3_ACCESS_KEY_ID'] %>
+  secret_access_key: <%= ENV['S3_SECRET_KEY'] %>
+  bucket: fullstacknights.com
+  skip_cleanup: true
+  acl: public_read
+  region: us-east-1
+  local_dir: _site
+  on: master
