@@ -2,7 +2,7 @@
 title: Fullstack Nights
 abrev: FSN
 url: fullstacknights.com
-active_meetup: false
+active_meetup: true
 description:
   partial: "Fullstack nights es un evento dirigido a programadores y diseñadores interesados en aprender y compartir lo que saben en un ambiente amistoso e informal."
   full: "Fullstack nights es un evento dirigido a programadores y diseñadores interesados en aprender y compartir lo que saben en un ambiente amistoso e informal. En cada edición tendremos 2 presentaciones de 20 minutos cada una. Los temas de las presentaciones serán sobre lenguajes de programación, frameworks, aplicaciones web, desktop y móvil, bases de datos, experiencia de usuario, interfaces, diseño y cualquier otro tema de interés para nuestra comunidad."
@@ -31,7 +31,7 @@ footer:
 
 # Tickets settings
 eventbrite:
-  ticket_form_widget: '<div style="width:100%; text-align:left;"><iframe src="//eventbrite.com/tickets-external?eid=36628032431&ref=etckt" frameborder="0" height="275" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #ADB0B6; text-decoration: none;" target="_blank" href="http://www.eventbrite.com/">Powered by Eventbrite</a></div></div>'
+  ticket_form_widget: ''
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -58,21 +58,19 @@ permalink: pretty
 
 current_talks:
   speakers:
-    - name: Manuel Olmo y Orlando Marty
-      topic: "Branding & Design Systems"
-      img: img/orlando_marty.png
+    - name: CJ Acosta
+      topic: "Cold Email Copyrighting"
+      img: https://pbs.twimg.com/profile_images/517429341941026816/eyEJ0fgU_400x400.jpeg
       social:
         - title: twitter
-          url: https://twitter.com/olmocs
-        - title: twitter
-          url: https://twitter.com/orlanmarty
+          url: https://twitter.com/CJAcosta
 
-    - name: Bryan Collazo
-      topic: How does Machine Learning ACTUALLY work?
-      img: https://pbs.twimg.com/profile_images/832975451601633282/eEwZsOm4_400x400.jpg
+    - name: Eric Santos
+      topic: "Genesis of a Perfect Mutant: Concurrency, Distribution and Fault Tolerance with Elixir"
+      img: https://pbs.twimg.com/profile_images/935540495496839169/HbbyIWtY_400x400.jpg
       social:
         - title: twitter
-          url: https://twitter.com/BryanBOCS
+          url: https://twitter.com/waasi_pr
 
 # Team members and their social profiles
 team:
