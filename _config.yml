@@ -2,7 +2,7 @@
 title: Fullstack Nights
 abrev: FSN
 url: fullstacknights.com
-active_meetup: true
+active_meetup: false
 description:
   partial: "Fullstack nights es un evento dirigido a programadores y diseñadores interesados en aprender y compartir lo que saben en un ambiente amistoso e informal."
   full: "Fullstack nights es un evento dirigido a programadores y diseñadores interesados en aprender y compartir lo que saben en un ambiente amistoso e informal. En cada edición tendremos 2 presentaciones de 20 minutos cada una. Los temas de las presentaciones serán sobre lenguajes de programación, frameworks, aplicaciones web, desktop y móvil, bases de datos, experiencia de usuario, interfaces, diseño y cualquier otro tema de interés para nuestra comunidad."
