@@ -128,3 +128,6 @@ collaborators:
       social:
         - title: twitter
           url: https://twitter.com/orlanmarty
+collections:
+  podcast:
+    output: true

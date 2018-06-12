@@ -1,13 +1,19 @@
 ---
 layout: default
-title: FSN - Podcast
+title: FSN - Episodes
 ---
 {% include podcast_header.html %}
 <div class="container">
+  {% for post in site.podcast %}
   <div class="row top-buttom-buffer">
       <div class="col-lg-12">
-        <iframe src="https://anchor.fm/fullstack-nights-podcast/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+        <span class="post-meta">Sometido por: {{ post.author }} en {{ post.date | date: "%b %-d, %Y" }}</span>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}index.html">{{ post.title }}</a>
+        </h2>
+        <p>{{post.description}}</p>
       </div>
   </div>
   <hr>
+  {% endfor %} 
 </div>
