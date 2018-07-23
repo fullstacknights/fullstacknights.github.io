@@ -14,9 +14,11 @@ En este episodio discutimos:
 * Google Chrome a consumir 13% más memoria
 * Economistas predicen la baja de Bitcoin
 * Detalles de la nueva Macbook Pro
+* Proyectos en Code for Orlando
+* Seguridad digital para periodistas.
 
 
-<iframe src="https://anchor.fm/fullstack-nights-podcast/embed/episodes/Episodio-2---Responsabilidad-y-Seguridad-e1kei4" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://anchor.fm/fullstack-nights-podcast/embed/episodes/Episodio-3---Code-for-Orlando-y-Seguridad-para-Periodistas-e1rms3" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 
 ## Enlances
 
