@@ -16,7 +16,9 @@ En este episodio discutimos:
 * ¿Qué resposabilidades tenemos como developers?
 * Lecciones implementando el estandard de PCI (Payment Card Industry)
 
-<iframe src="https://anchor.fm/fullstack-nights-podcast/embed/episodes/Episodio-2---Responsabilidad-y-Seguridad-e1kei4" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+<div class="embed-container anchorfm">
+  <iframe src="https://anchor.fm/fullstack-nights-podcast/embed/episodes/Episodio-2---Responsabilidad-y-Seguridad-e1kei4" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+</div>
 
 ## Enlances
 

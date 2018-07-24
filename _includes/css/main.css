@@ -449,3 +449,36 @@ a.event-fsn {
     line-height: 22px;
     margin-left: 20px;
 }
+
+.post.container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container.anchorfm {
+    padding-bottom: 102px;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:992px) {
+    .embed-container.anchorfm {
+        padding-bottom: 166px;
+    }
+}
