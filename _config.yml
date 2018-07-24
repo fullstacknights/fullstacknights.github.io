@@ -131,3 +131,5 @@ collaborators:
 collections:
   podcast:
     output: true
+
+exclude: ["vendor"]
