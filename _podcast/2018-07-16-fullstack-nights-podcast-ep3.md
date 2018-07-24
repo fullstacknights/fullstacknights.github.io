@@ -17,7 +17,7 @@ En este episodio discutimos:
 * Proyectos en Code for Orlando
 * Seguridad digital para periodistas.
 
-<div class="embed-container">
+<div class="embed-container anchorfm">
   <iframe src="https://anchor.fm/fullstack-nights-podcast/embed/episodes/Episodio-3---Code-for-Orlando-y-Seguridad-para-Periodistas-e1rms3" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 </div>
 
