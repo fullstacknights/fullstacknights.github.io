@@ -7,7 +7,7 @@ description:
   partial: "Fullstack nights es un evento dirigido a programadores y diseñadores interesados en aprender y compartir lo que saben en un ambiente amistoso e informal."
   full: "Fullstack nights es un evento dirigido a programadores y diseñadores interesados en aprender y compartir lo que saben en un ambiente amistoso e informal. En cada edición tendremos 2 presentaciones de 20 minutos cada una. Los temas de las presentaciones serán sobre lenguajes de programación, frameworks, aplicaciones web, desktop y móvil, bases de datos, experiencia de usuario, interfaces, diseño y cualquier otro tema de interés para nuestra comunidad."
   who_should_come: "Toda persona interesada en temas de programación y diseño interactivo. No importa si sólo tienes curiosidad con alguno de estos temas, eres estudiante, estás empezando o si eres un experto. Hay espacio para todos compartir y aprender."
-  why_pay: "Solicitamos una donación de $5 por cada asistente. De esos $5 se descuentan los cargos de procesamiento de tarjeta de crédito por lo que sobran unos $3.73. Esta donación tiene como propósito principal que las personas que reserven un asiento lleguen el día del evento. Nos ha pasado mucho con eventos gratis que las personas nos reservan y no llegan dejando fuera a otros que si podrían llegar. También usamos este dinero para completar los gastos de bebidas y pizza que tenemos disponible para las personas que llegan temprano."
+  why_pay: "Solicitamos una donación de $5 por cada asistente. De esos $5 se descuentan los cargos de procesamiento de tarjeta de crédito por lo que sobran unos $3.73. Esta donación tiene como propósito principal que las personas que reserven un asiento lleguen el día del evento. Nos ha pasado mucho con eventos gratis que las personas nos reservan y no llegan dejando fuera a otros que sí podrían llegar. También usamos este dinero para completar los gastos de bebidas y pizza que tenemos disponible para las personas que llegan temprano."
 
 favicons_path: /img/favicons
 google_analytics:
@@ -74,7 +74,7 @@ current_talks:
 
 # Team members and their social profiles
 team:
-  description: "Somos desarrolladores de software, diseñadores y lideres comunitarios. Nos pueden contactar por Twitter."
+  description: "Somos desarrolladores de software, diseñadores y líderes comunitarios. Nos pueden contactar por Twitter."
   members:
     - name: Froilán Irizarry
       img: img/froi.png
@@ -97,7 +97,7 @@ team:
         - title: twitter
           url: https://twitter.com/arivera
 collaborators:
-  description: Nuestra comunidad es especial pero estos se destacan entre todos!
+  description: ¡Nuestra comunidad es especial pero estos se destacan entre todos!
   members:
     - name: Xiomara Figueroa
       img: img/xiomara.jpg
