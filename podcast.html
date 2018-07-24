@@ -4,7 +4,7 @@ title: FSN - Episodes
 ---
 {% include podcast_header.html %}
 <div class="container">
-  {% for post in site.podcast %}
+  {% for post in site.podcast reversed %}
   <div class="row top-buttom-buffer">
       <div class="col-lg-12">
         <span class="post-meta">Sometido por: {{ post.author }} en {{ post.date | date: "%b %-d, %Y" }}</span>
@@ -15,5 +15,5 @@ title: FSN - Episodes
       </div>
   </div>
   <hr>
-  {% endfor %} 
+  {% endfor %}
 </div>
