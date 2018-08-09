@@ -1,11 +1,10 @@
-
 <section id="team">
 	<div class="container">
 		<div class="row">
-	    <div class="col-lg-12 text-center">
-	        <h2>El Equipo</h2>
-	        <hr >
-	    </div>
+			<div class="col-lg-12 text-center">
+				<h2>Equipo</h2>
+				<hr>
+			</div>
 		</div>
 		<div class="row">
 			<div class="col-lg-12">
@@ -20,18 +19,20 @@
 						<div>
 							<h5>{{ member.name}}</h5>
 							<ul class="list-inline">
-							{% for network in member.social %}
+								{% for network in member.social %}
 								<li>
-									<a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
+									<a href="{{ network.url }}" class="btn-social btn-outline">
+										<i class="fa fa-fw fa-{{ network.title }}"></i>
+									</a>
 								</li>
-							{% endfor %}
+								{% endfor %}
 							</ul>
 						</div>
 					</div>
 					{% endfor %}
 				</div>
 			</div>
-    </div>
+		</div>
 		<div class="row">
 			<div class="col-lg-12">
 				<h3>Colaboradores</h3>
@@ -45,17 +46,19 @@
 						<div>
 							<h5>{{ collaborator.name}}</h5>
 							<ul class="list-inline">
-							{% for network in collaborator.social %}
+								{% for network in collaborator.social %}
 								<li>
-									<a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
+									<a href="{{ network.url }}" class="btn-social btn-outline">
+										<i class="fa fa-fw fa-{{ network.title }}"></i>
+									</a>
 								</li>
-							{% endfor %}
+								{% endfor %}
 							</ul>
 						</div>
 					</div>
 					{% endfor %}
 				</div>
 			</div>
-    </div>
+		</div>
 	</div>
 </section>
