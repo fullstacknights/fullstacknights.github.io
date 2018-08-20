@@ -1,5 +1,7 @@
 # Fullstack Nights Site
 
+___Please take a look at our Code of Conduct:___ [ES](CODE_OF_CONDUCT.md), [EN](CODE_OF_CONDUCT_EN.md)
+
 This is the official home for Fullstack Nights.
 
 We are using a modified Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/templates/freelancer/). Please visit their site for more information on the theme and how to use it.
