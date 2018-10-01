@@ -58,19 +58,18 @@ permalink: pretty
 
 current_talks:
   speakers:
-    - name: Pablo Castellanos
-      topic: "Color use on Branding & UI"
-      img: img/pablo.png
-      social:
-        - title: dribbble
-          url: https://dribbble.com/Aleboardi
+    - name: Lincy Ayala
+      topic: "Storytelling through design"
+      img: img/empty-avatar.png
 
-    - name: José Figueroa
-      topic: "Get rich or die prototyping"
-      img: img/jose-raul.jpeg
-# social:
-#   - title: twitter
-#     url: https://twitter.com/waasi_pr
+    - name: Alan Wagner
+      topic: "Playing Dominoes with an AI"
+      img: img/alan.jpeg
+      social:
+        - title: linkedin
+          url: https://www.linkedin.com/in/alanwagner333/
+        - title: github
+          url: https://github.com/abw333/
 
 # Team members and their social profiles
 team:
