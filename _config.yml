@@ -60,7 +60,7 @@ current_talks:
   speakers:
     - name: Lincy Ayala
       topic: "Storytelling through design"
-      img: img/empty-avatar.png
+      img: img/lincy.jpeg
 
     - name: Alan Wagner
       topic: "Playing Dominoes with an AI"
