@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Fullstack Nights Podcast Ep 5 - Oct. 2018"
-date: 2018-09-09 00:00:00 -0400
+date: 2018-10-14 00:00:00 -0400
 categories: fsn podcast
 author: Froilán Irizarry
 description: En nuestro quinto episodio hablamos sobre cuando Giovanni y Froilan se sintieron comodos con llamarse software developer y cuando supimos que sabiamos lo que haciamos. Grabado el 14 de octubre de 2018.
 ---
 
-# Episodio 5 - Cuando nos convertimos en Software Developers
+# Episodio 5 - ¿Cuándo nos convertimos en Software Developers?
 
 En este episodio discutimos:
 
