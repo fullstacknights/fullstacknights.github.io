@@ -58,18 +58,18 @@ permalink: pretty
 
 current_talks:
   speakers:
-    - name: Lincy Ayala
-      topic: "Storytelling through design"
-      img: img/lincy.jpeg
+    - name: Vivian Capulong
+      topic: "Communication Through Prototyping"
+      img: img/vivian.jpg
 
-    - name: Alan Wagner
-      topic: "Playing Dominoes with an AI"
-      img: img/alan.jpeg
-      social:
-        - title: linkedin
-          url: https://www.linkedin.com/in/alanwagner333/
-        - title: github
-          url: https://github.com/abw333/
+    - name: Erin Allard
+      topic: "Quick Prototyping with Django"
+      img: img/erin.jpg
+      # social:
+      #   - title: linkedin
+      #     url: https://www.linkedin.com/in/alanwagner333/
+      #   - title: github
+      #     url: https://github.com/abw333/
 
 # Team members and their social profiles
 team:
