@@ -58,13 +58,13 @@ permalink: pretty
 
 current_talks:
   speakers:
-    - name: Vivian Capulong
-      topic: "Communication Through Prototyping"
-      img: img/vivian.jpg
+    - name: Layshi Curbelo
+      topic: "User Experience for Events"
+      img: img/layshi.jpg
 
-    - name: Erin Allard
-      topic: "Quick Prototyping with Django"
-      img: img/erin.jpg
+    - name: Yamil Asusta
+      topic: "After Years of Node.js in Production, We Still Block the Event Loop"
+      img: img/yamil.jpeg
       # social:
       #   - title: linkedin
       #     url: https://www.linkedin.com/in/alanwagner333/
