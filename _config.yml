@@ -58,13 +58,16 @@ permalink: pretty
 
 current_talks:
   speakers:
-    - name: Layshi Curbelo
-      topic: "User Experience for Events"
-      img: img/layshi.jpg
+    - name: Alice Cabrera
+      topic: "Intellectual Property in Design: An Overview"
+      img: img/alice.png
 
-    - name: Yamil Asusta
-      topic: "After Years of Node.js in Production, We Still Block the Event Loop"
-      img: img/yamil.jpeg
+    - name: Kristian Muñiz
+      topic: "Lessons Learned From Building Configurable Software"
+      img: img/kristian.jpg
+      social:
+        - title: twitter
+          url: KristianMuniz
       # social:
       #   - title: linkedin
       #     url: https://www.linkedin.com/in/alanwagner333/
