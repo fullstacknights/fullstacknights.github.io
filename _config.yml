@@ -58,16 +58,16 @@ permalink: pretty
 
 current_talks:
   speakers:
-    - name: Alice Cabrera
-      topic: "Intellectual Property in Design: An Overview"
-      img: img/alice.png
+    - name: Sixto Morales
+      topic: "Audit-6: Running complex processes in COBOL using simple commands"
+      img: img/empty-avatar.png
 
-    - name: Kristian Muñiz
-      topic: "Lessons Learned From Building Configurable Software"
-      img: img/kristian.jpg
+    - name: Jonathan Santiago
+      topic: "Unit Testing: 5 Common Mistakes"
+      img: img/jonathan.jpg
       social:
         - title: twitter
-          url: KristianMuniz
+          url: JonathanAgosto
       # social:
       #   - title: linkedin
       #     url: https://www.linkedin.com/in/alanwagner333/
