@@ -4,10 +4,10 @@ abrev: FSN
 url: fullstacknights.com
 active_meetup: true
 description:
-  partial: "Fullstack nights es un evento dirigido a programadores y diseñadores interesados en aprender y compartir lo que saben en un ambiente amistoso e informal."
-  full: "Fullstack nights es un evento dirigido a programadores y diseñadores interesados en aprender y compartir lo que saben en un ambiente amistoso e informal. En cada edición tendremos 2 presentaciones de 20 minutos cada una. Los temas de las presentaciones serán sobre lenguajes de programación, frameworks, aplicaciones web, desktop y móvil, bases de datos, experiencia de usuario, interfaces, diseño y cualquier otro tema de interés para nuestra comunidad."
-  who_should_come: "Toda persona interesada en temas de programación y diseño interactivo. No importa si sólo tienes curiosidad con alguno de estos temas, eres estudiante, estás empezando o si eres un experto. Hay espacio para todos compartir y aprender."
-  why_pay: "Solicitamos una donación de $5 por cada asistente. De esos $5 se descuentan los cargos de procesamiento de tarjeta de crédito por lo que sobran unos $3.73. Esta donación tiene como propósito principal que las personas que reserven un asiento lleguen el día del evento. Nos ha pasado mucho con eventos gratis que las personas nos reservan y no llegan dejando fuera a otros que si podrían llegar. También usamos este dinero para completar los gastos de bebidas y pizza que tenemos disponible para las personas que llegan temprano."
+  partial: 'Fullstack nights es un evento dirigido a programadores y diseñadores interesados en aprender y compartir lo que saben en un ambiente amistoso e informal.'
+  full: 'Fullstack nights es un evento dirigido a programadores y diseñadores interesados en aprender y compartir lo que saben en un ambiente amistoso e informal. En cada edición tendremos 2 presentaciones de 20 minutos cada una. Los temas de las presentaciones serán sobre lenguajes de programación, frameworks, aplicaciones web, desktop y móvil, bases de datos, experiencia de usuario, interfaces, diseño y cualquier otro tema de interés para nuestra comunidad.'
+  who_should_come: 'Toda persona interesada en temas de programación y diseño interactivo. No importa si sólo tienes curiosidad con alguno de estos temas, eres estudiante, estás empezando o si eres un experto. Hay espacio para todos compartir y aprender.'
+  why_pay: 'Solicitamos una donación de $5 por cada asistente. De esos $5 se descuentan los cargos de procesamiento de tarjeta de crédito por lo que sobran unos $3.73. Esta donación tiene como propósito principal que las personas que reserven un asiento lleguen el día del evento. Nos ha pasado mucho con eventos gratis que las personas nos reservan y no llegan dejando fuera a otros que si podrían llegar. También usamos este dinero para completar los gastos de bebidas y pizza que tenemos disponible para las personas que llegan temprano.'
 
 favicons_path: /img/favicons
 google_analytics:
@@ -31,7 +31,7 @@ footer:
 
 # Tickets settings
 eventbrite:
-  ticket_form_widget: ""
+  ticket_form_widget: ''
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -58,16 +58,19 @@ permalink: pretty
 
 current_talks:
   speakers:
-    - name: Sixto Morales
-      topic: "Audit-6: Running complex processes in COBOL using simple commands"
-      img: img/empty-avatar.png
-
-    - name: Jonathan Santiago
-      topic: "Unit Testing: 5 Common Mistakes"
-      img: img/jonathan.jpg
+    - name: Raúl Negrón
+      topic: 'Game Boy Development Basics'
+      img: img/raul.png
       social:
         - title: twitter
-          url: JonathanAgosto
+          url: rucury
+
+    - name: Christian Rodríguez
+      topic: 'Running Django in Production'
+      img: img/christian.jpg
+      social:
+        - title: twitter
+          url: chrisrodz35
       # social:
       #   - title: linkedin
       #     url: https://www.linkedin.com/in/alanwagner333/
@@ -76,7 +79,7 @@ current_talks:
 
 # Team members and their social profiles
 team:
-  description: "Somos desarrolladores de software, diseñadores y lideres comunitarios. Nos pueden contactar por Twitter."
+  description: 'Somos desarrolladores de software, diseñadores y lideres comunitarios. Nos pueden contactar por Twitter.'
   members:
     - name: Froilán Irizarry
       img: img/froi.png
@@ -134,4 +137,4 @@ collections:
   podcast:
     output: true
 
-exclude: ["vendor"]
+exclude: ['vendor']
