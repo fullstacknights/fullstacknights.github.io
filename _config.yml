@@ -59,7 +59,7 @@ permalink: pretty
 current_talks:
   speakers:
     - name: Raúl Negrón
-      topic: 'Game Boy Development Basics'
+      topic: 'How I ported the Chrome Dino Game to the Game Boy'
       img: img/raul.png
       social:
         - title: twitter
