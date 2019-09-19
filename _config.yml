@@ -63,14 +63,14 @@ current_talks:
       img: img/raul.png
       social:
         - title: twitter
-          url: rucury
+          url: https://www.twitter.com/rucury
 
     - name: Christian Rodríguez
       topic: 'Running Django in Production'
       img: img/christian.jpg
       social:
         - title: twitter
-          url: chrisrodz35
+          url: https://www.twitter.com/chrisrodz35
       # social:
       #   - title: linkedin
       #     url: https://www.linkedin.com/in/alanwagner333/
