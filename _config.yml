@@ -7,7 +7,7 @@ description:
   partial: 'Fullstack nights es un evento dirigido a programadores y diseñadores interesados en aprender y compartir lo que saben en un ambiente amistoso e informal.'
   full: 'Fullstack nights es un evento dirigido a programadores y diseñadores interesados en aprender y compartir lo que saben en un ambiente amistoso e informal. En cada edición tendremos 2 presentaciones de 20 minutos cada una. Los temas de las presentaciones serán sobre lenguajes de programación, frameworks, aplicaciones web, desktop y móvil, bases de datos, experiencia de usuario, interfaces, diseño y cualquier otro tema de interés para nuestra comunidad.'
   who_should_come: 'Toda persona interesada en temas de programación y diseño interactivo. No importa si sólo tienes curiosidad con alguno de estos temas, eres estudiante, estás empezando o si eres un experto. Hay espacio para todos compartir y aprender.'
-  why_pay: 'Solicitamos una donación de $5 por cada asistente. De esos $5 se descuentan los cargos de procesamiento de tarjeta de crédito por lo que sobran unos $3.73. Esta donación tiene como propósito principal que las personas que reserven un asiento lleguen el día del evento. Nos ha pasado mucho con eventos gratis que las personas nos reservan y no llegan dejando fuera a otros que si podrían llegar. También usamos este dinero para completar los gastos de bebidas y pizza que tenemos disponible para las personas que llegan temprano.'
+is_topic_tables: true
 
 favicons_path: /img/favicons
 google_analytics:
@@ -58,24 +58,26 @@ permalink: pretty
 
 current_talks:
   speakers:
-    - name: Raúl Negrón
-      topic: 'How I ported the Chrome Dino Game to the Game Boy'
-      img: img/raul.png
+    - name: Alex Santos
+      topic: 'UI Design'
+      img: img/alex-santos.jpeg
       social:
-        - title: twitter
-          url: https://www.twitter.com/rucury
+        - title: dribbble
+          url: https://dribbble.com/makobi
 
-    - name: Christian Rodríguez
-      topic: 'Running Django in Production'
-      img: img/christian.jpg
+    - name: Gabriel Pérez
+      topic: 'Indie Hackers'
+      img: img/gabriel-perez.jpeg
       social:
         - title: twitter
-          url: https://www.twitter.com/chrisrodz35
-      # social:
-      #   - title: linkedin
-      #     url: https://www.linkedin.com/in/alanwagner333/
-      #   - title: github
-      #     url: https://github.com/abw333/
+          url: https://twitter.com/gaburieru4649
+
+    - name: Juan Álvarez
+      topic: 'Scalable Interfaces with Big Data'
+      img: img/juan-alvarez.jpeg
+      social:
+        - title: github
+          url: https://github.com/juanjalvarez
 
 # Team members and their social profiles
 team:

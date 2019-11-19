@@ -1,56 +1,67 @@
 <section id="current-talks">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>Próximas Charlas</h2>
-                <hr />
-            </div>
-            <div class="col-lg-12 speakers">
-                {% for speaker in site.current_talks.speakers %}
-                <div class="img-wrapper col-lg-6">
-                    <div>
-                        <img src="{{speaker.img}}"
-                            alt="{{ speaker.name }}">
-                    </div>
-                    <div>
-                        <h5>{{ speaker.name}}</h5>
-                        <h5>{{ speaker.topic }}</h5>
-                        <ul class="list-inline">
-                            {% for network in speaker.social %}
-                            <li>
-                                <a href="{{ network.url }}"
-                                    target="_blank"
-                                    class="btn-social btn-outline">
-                                    <i class="fa fa-fw fa-{{ network.title }}"></i>
-                                </a>
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        {% if site.is_topic_tables %}
+        <h2>Próximos Moderadores</h2>
+        {% else %}
+        <h2>Próximas Charlas</h2>
+        {% endif %}
+        <hr />
+      </div>
+      <div class="col-lg-12 speakers">
+        {% for speaker in site.current_talks.speakers %}
+        <div
+          class="img-wrapper {% if site.is_topic_tables %}col-lg-4{% else %}col-lg-6{% endif %}"
+        >
+          <div>
+            <img src="{{speaker.img}}" alt="{{ speaker.name }}" />
+          </div>
+          <div>
+            <h5>{{ speaker.name}}</h5>
+            <h5>{{ speaker.topic }}</h5>
+            <ul class="list-inline">
+              {% for network in speaker.social %}
+              <li>
+                <a
+                  href="{{ network.url }}"
+                  target="_blank"
+                  class="btn-social btn-outline"
+                >
+                  <i class="fa fa-fw fa-{{ network.title }}"></i>
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
         </div>
+        {% endfor %}
+      </div>
     </div>
+  </div>
 </section>
 <hr />
 <section id="tickets">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>Registro</h2>
-                <hr>
-            </div>
-        </div>
-        <div class="row text-center">
-            <p>
-                Visite
-                <a href="https://fullstacknights.eventbrite.com?ref=elink"
-                    target="_blank">nuestro evento en Eventbrite</a> para más detalles, ver los temas y los perfiles de los conferenciantes.
-            </p>
-        </div>
-        <div class="row">
-            {{ site.eventbrite.ticket_form_widget }}
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Registro</h2>
+        <hr />
+      </div>
     </div>
+    <div class="row text-center">
+      <p>
+        Visite
+        <a
+          href="https://fullstacknights.eventbrite.com?ref=elink"
+          target="_blank"
+          >nuestro evento en Eventbrite</a
+        >
+        para más detalles, ver los temas y los perfiles de los conferenciantes.
+      </p>
+    </div>
+    <div class="row">
+      {{ site.eventbrite.ticket_form_widget }}
+    </div>
+  </div>
 </section>
